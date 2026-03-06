@@ -24,6 +24,6 @@ public class Task6 {
             else
                 zero++;
         }
-        System.out.printf("В массиве %d положительных, %d отрицательеных, %d нулей", pos, neg, zero);
+        System.out.printf("В массиве %d положительных, %d отрицательеных, %d нулей\n", pos, neg, zero);
     }
 }

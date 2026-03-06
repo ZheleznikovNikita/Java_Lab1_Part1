@@ -11,7 +11,6 @@ public class Task2 {
         System.out.print("Заполненный массив: ");
         for (var elem : arr)
             System.out.print(elem + " ");
-        System.out.print("\n");
         var sum = Arrays.stream(arr).sum();
         var average = sum / (double)size;
         System.out.printf("\nСумма элементов массива: %d\nСреднее арифметическое: %.2f\n", sum, average);

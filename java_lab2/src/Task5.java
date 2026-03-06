@@ -26,6 +26,6 @@ public class Task5 {
                 minInd = i;
             }
         }
-        System.out.printf("Максимальное значение: %d, индекс: %d\nМинимальное значение: %d, индекс: %d", max, maxInd, min, minInd);
+        System.out.printf("Максимальное значение: %d, индекс: %d\nМинимальное значение: %d, индекс: %d\n", max, maxInd, min, minInd);
     }
 }

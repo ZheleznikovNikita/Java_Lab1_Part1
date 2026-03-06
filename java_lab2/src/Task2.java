@@ -6,15 +6,14 @@ public class Task2 {
         System.out.print("Введите размер массива: ");
         int size = scanner.nextInt();
         int[] arr = new int[size];
-        for (int i = 0; i < size; i++){
-            arr[i] = (int)(Math.random() * 50);
-        }
+        for (int i = 0; i < size; i++)
+            arr[i] = (int)(Math.random() * 51);
         System.out.print("Заполненный массив: ");
-        for (int i = 0; i < size; i++){
-            System.out.print(arr[i] + " ");
-        }
+        for (var elem : arr)
+            System.out.print(elem + " ");
+        System.out.print("\n");
         var sum = Arrays.stream(arr).sum();
         var average = sum / (double)size;
-        System.out.printf("\nСумма элементов массива: %d\nСреднее арифметическое: %.2f", sum, average);
+        System.out.printf("\nСумма элементов массива: %d\nСреднее арифметическое: %.2f\n", sum, average);
     }
 }

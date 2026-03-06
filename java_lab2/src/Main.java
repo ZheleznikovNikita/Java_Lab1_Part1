@@ -6,7 +6,14 @@ public class Main {
         //Task2.arrSum();
         /* Задание 3 "Калькулятор с защитой от деления на ноль" */
         //Task3.Calculate();
-        /**/
-        Task4.DaysInMonth();
+        /* Задание 4 "Количество дней в месяце" */
+        //Task4.DaysInMonth();
+        /* Задание 5 "Поиск максимума и минимума" */
+        //Task5.MaxAndMin();
+        /* Задание 6 "Подсчёт положительных, отрицательных и нулей" */
+        //Task6.CountPosNegZero();
+        /* Задание 7 "Таблица умножения для числа */
+        //Task7.MultiplicationTable();
+        Task8.MagicSquare();
     }
 }

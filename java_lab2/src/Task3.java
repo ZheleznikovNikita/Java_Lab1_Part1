@@ -10,24 +10,23 @@ public class Task3 {
        String operation = scanner.next();
        switch (operation){
            case "+" :
-               System.out.print("Сумма чисел: " + (num1 + num2));
+               System.out.print("Сумма чисел: " + (num1 + num2) + "\n");
                break;
            case "-":
-               System.out.print("Разность: " + (num1 - num2));
+               System.out.print("Разность: " + (num1 - num2) + "\n");
                break;
            case "*":
-               System.out.print("Проиведение: " + (num1 * num2));
+               System.out.print("Проиведение: " + (num1 * num2) + "\n");
                break;
            case "/":
                if (num2 == 0) {
-                   System.out.print("На ноль делить нельзя!");
+                   System.out.print("Ошибка: деление на ноль\n");
                    return;
                }
-               var res = num1 / (double)num2;
-               System.out.printf("Частное: %.2f", res);
+               System.out.printf("Частное: %.2f\n", num1 / (double)num2);
                break;
            default:
-               System.out.print("Введён неожиданный символ");
+               System.out.print("Введён неожиданный символ\n");
                break;
        }
     }
